@@ -8,64 +8,22 @@
 
 <suite name="مدير عام الامن والسلامة">
 
-    <test name="مدير عام الامن والسلامة/ أضافة الاقسام">
-
+    <test name="مدير عام الامن والسلامة/الاقسام\اضافة\عرض\تعديل\حذف">
         <classes>
             <class name="NoorProject.Other.NoorLogin">
                 <methods>
                     <include name="GeneralDirectorOfSchoolSecurityAndSafety"/>
                 </methods>
             </class>
-            <class name="NoorProject.EduWaveSafeAndSecurity.GeneralDirectorOfSchoolSecurityAndSafety.EduWaveSafeAndSecurityForms.SectionsForm.AddSectionsOfTheForm"/>
-            <class name="NoorProject.Other.NoorLogOut"/>
-
-
-        </classes>
-
-    </test>
-
-    <test name="مدير عام الامن والسلامة/ عرض الاقسام الاقسام">
-
-        <classes>
-            <class name="NoorProject.Other.NoorLogin">
+            <class name="NoorProject.EduWaveSafeAndSecurity.GeneralDirectorOfSchoolSecurityAndSafety.EduWaveSafeAndSecurityForms.SectionsForm.SectionsForms">
                 <methods>
-                    <include name="GeneralDirectorOfSchoolSecurityAndSafety"/>
+                    <include name="addSectionsToTheForm"/>
+                    <include name="ViewSectionsOfTheForms"/>
+                    <include name="editSectionsOfTheForm"/>
+                    <include name="deleteSections"/>
                 </methods>
             </class>
-            <class name="NoorProject.EduWaveSafeAndSecurity.GeneralDirectorOfSchoolSecurityAndSafety.EduWaveSafeAndSecurityForms.SectionsForm.ViewSectionsOfTheForm"/>
-            <class name="NoorProject.Other.NoorLogOut"/>
-
-
         </classes>
-
-    </test>
-    <test name="مدير عام الامن والسلامة/ تعديل الاقسام الاقسام">
-
-        <classes>
-            <class name="NoorProject.Other.NoorLogin">
-                <methods>
-                    <include name="GeneralDirectorOfSchoolSecurityAndSafety"/>
-                </methods>
-            </class>
-            <class name="NoorProject.EduWaveSafeAndSecurity.GeneralDirectorOfSchoolSecurityAndSafety.EduWaveSafeAndSecurityForms.SectionsForm.EditSectionsOfTheForm"/>
-            <class name="NoorProject.Other.NoorLogOut"/>
-
-
-        </classes>
-
-    </test>
-    <test name="مدير عام الامن والسلامة حذف الاقسام">
-
-        <classes>
-            <class name="NoorProject.Other.NoorLogin">
-                <methods>
-                    <include name="GeneralDirectorOfSchoolSecurityAndSafety"/>
-                </methods>
-            </class>
-            <class name="NoorProject.EduWaveSafeAndSecurity.GeneralDirectorOfSchoolSecurityAndSafety.EduWaveSafeAndSecurityForms.SectionsForm.DeleteSectionsOfTheForm"/>
-            <class name="NoorProject.Other.NoorLogOut"/>
-        </classes>
-
     </test>
 
 </suite>

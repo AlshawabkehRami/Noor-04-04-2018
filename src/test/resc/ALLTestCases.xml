@@ -27,6 +27,8 @@
                 path="QA/TeacherAffairs/DirectorOfTeachersAffairsInTheMinistry/Userlist/AddDirectorOfDepartmentsInTheMinistry.xml"/>
         <suite-file path="QA/SafetyAndSecurity/SchoolSecurityAndSafetyInSchool/TheReport.xml"/>
         <suite-file path="QA/SafetyAndSecurity/SchoolSecurityAndSafetyInSchool/Forms.xml"/>
+        <suite-file
+                path="QA/SafetyAndSecurity/GeneralDirectorOfSchoolSecurityAndSafety/Forms/FormSections/FormSections.xml"/>
 
 
     </suite-files>

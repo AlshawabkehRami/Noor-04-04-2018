@@ -1,10 +1,13 @@
 /*
  * Created By Rami Al Shawabkeh 4/3/18 11:35 AM
- */
+ *//*
 
+
+*/
 /*
  * Created By Rami Al Shawabkeh 4/3/18 9:55 AM
- */
+ *//*
+
 
 package NoorProject.EduWaveSafeAndSecurity.GeneralDirectorOfSchoolSecurityAndSafety.EduWaveSafeAndSecurityForms.SectionsForm;
 
@@ -82,3 +85,4 @@ public class EditSectionsOfTheForm {
 
     }
 }
+*/
